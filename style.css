@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body{
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  color: #222;
+}
+
+/* Now we are goin to style the nav bar */
+.navbar {
+  background: lightgrey;
+  padding: 0.7rem;
+}
+
+.navbar-nav li{
+    padding:0 10px 0 10px;
+}
+
+.nav-link{
+  color: #222;
+}
+
+.af-logo{
+  color:#222;
+  font-size: 20px;
+}
+
+.tab-content p{
+  color:#686868;
+}
+
+.sell-item{
+  background: #9aa6b1;
+}
+
+/* WAY TO CHANGE THE PILL COLOR ACTIVE!!! */
+.pill-mod > li > a.active {
+    background-color: #26415a!important;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height:100%;
+}
+
+.carousel-caption{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+/* FIRST CAROUSEL */
+.cap1 h1{
+  font-size: 500%;
+  color:#cc3300;
+  text-shadow: 1px 1px 15px #000;
+}
+.cap1 a{
+  text-decoration: none;
+  color: #222;
+  padding: 5px;
+  border:1px solid #222;
+  border-radius: 4px;
+  transition: opacity 0.5s;
+}
+.cap1 a:hover{
+  opacity: 40%;
+  font-weight: 400;
+  color:#cc3300;
+}
+
+/* SECOND CAROUSEL */
+.cap2 h1{
+  font-size: 500%;
+  color:#e82bbd;
+  text-shadow: 1px 1px 15px #000;
+}
+.cap2 a{
+  text-decoration: none;
+  color: #222;
+  padding: 5px;
+  border:1px solid #222;
+  border-radius: 4px;
+  transition: opacity 0.5s;
+}
+.cap2 a:hover{
+  opacity: 40%;
+  font-weight: 400;
+  color:#e82bbd;
+}
+
+/* THIRD CAROUSEL */
+.cap3 h1{
+  font-size: 500%;
+  color:#084aa8;
+  text-shadow: 1px 1px 15px #000;
+}
+.cap3 a{
+  text-decoration: none;
+  color: #222;
+  padding: 5px;
+  border:1px solid #222;
+  border-radius: 4px;
+  transition: opacity 0.5s;
+}
+.cap3 a:hover{
+  opacity: 40%;
+  font-weight: 400;
+  color:#084aa8;
+}
+
+
+#html-logo{
+  font-size: 4.3rem;
+  padding: 10px 0 20px 0;
+  color:#e34a00;
+}
+
+#css-logo{
+  font-size: 4.3rem;
+  padding: 10px 0 20px 0;
+  color:#007ae0;
+}
+
+#bootstrap-logo{
+  font-size: 4.3rem;
+  padding: 10px 0 20px 0;
+  color:#800da6;
+}
+
+.social .fa-youtube{
+  color: #c4302b;
+}
+
+.social .fa-facebook {
+  color: #3b5998;
+}
+
+.social .fa-instagram {
+  color: #3f729b;
+}
+
+.social .fa-google-plus-g {
+  color: #db4a39;
+}
+
+.social .fa-twitter {
+  color: #38A1F3;
+}
+
+.connect{
+  padding-bottom:10px;
+}
+
+.social{
+  padding-bottom:50px;
+}
+
+.social a{
+  padding:40px;
+}
+
+.social i{
+  font-size: 4rem;
+}
+
+footer {
+  background: #C8C8C8;
+  color: #222;
+}
+
+footer hr{
+  background: #222;
+}
+
+.jumbotron{
+  background: #0f1a24;
+  color: lightgrey;
+}
